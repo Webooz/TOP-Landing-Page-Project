@@ -1,0 +1,34 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Roboto, Arial, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #1F2937;
+    margin: 0;padding: 0;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 1rem;;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
