@@ -1,27 +1,81 @@
-html {
-    font-size: 16px;
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-body {
-    font-family: Roboto, Arial, serif;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
 .header {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     background-color: #1F2937;
-    margin: 0;padding: 0;
+    margin: 0;
+    height: 4rem;
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo,
+.footer {
+    font-size: 1.5rem;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.footer p {
+    font-size: 0.7rem;
 }
 
 .logo {
-    color: #F9FAF8;
+    justify-content: flex-start;
+    font-weight: bold;
+    text-wrap-mode: nowrap;
 }
+
+.navigation {
+    justify-content: flex-end;
+}
+
+.logo, 
+.navigation {
+    display: flex;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0rem;
+}
+.hero-text-section {
+ 
+}
+
+.hero-image-section {
+
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 1290px;
+}
+
 ul {
     display: flex;
-    justify-content: space-around;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -31,4 +85,23 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+    font-size: 18px;
+    text-wrap-mode: nowrap;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+button.signup {
+    background-color: #3882F6;
+    color: #fcfdfe;
+    width: 100px;
+    height: 28px;
+    border: 0;
+    border-color: #3882F6;
+    border-radius: 6px;
+    
+
 }
