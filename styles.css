@@ -116,13 +116,13 @@ body {
     font-weight: 700;
 }
 
-.wrapT {
+.testimonial >.wrap {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     margin-inline: auto;
     max-width: 890px;
-    gap: 4rem;
-}
+    gap: 0;
+    }
 
 .name {
     font-size: 24px;
@@ -136,8 +136,6 @@ body {
     background-color: #3882F6;
     color: #e5e7eb;
     border-radius: 6px;
-    flex-wrap: wrap;
-    align-content: stretch;
 
 }
 
@@ -204,7 +202,7 @@ button.signup {
     border-radius: 6px;
 }
 
-.wrap .signup {
+.toutenbas .wrap .signup {
     border: 2px solid;
 
 }
